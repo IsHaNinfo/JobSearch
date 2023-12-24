@@ -63,16 +63,17 @@ const Search = () => {
             </select>
             </div>
             <div className="singleSearch flex items-center gap-2">
-                <label htmlFor='relevance' className='text-[#808080] font-semibold'>Sort by:</label>
+                <label htmlFor='relevance' className='text-[#808080] font-semibold'>Level:</label>
             
-            <select name="" id="relevance" className='bg-white rounded-[3px] px-4 py-1'>
-                <option value="">Relevance</option>
-                <option value="">Inclusive</option>
-                <option value="">Starts With</option>
-                <option value="">Containes</option>
+            <select name="" id="level" className='bg-white rounded-[3px] px-4 py-1'>
+                <option value="">Senior</option>
+                <option value="">Beginner</option>
+                <option value="">Intermediate</option>
+                <option value="">Advocate</option>
 
             </select>
             </div>
+            <span className='text-[#a1a1a1 cursor-pointer]'>Clear All</span>
         </div>
         
     </div>
